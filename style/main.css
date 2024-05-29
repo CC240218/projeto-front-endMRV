@@ -20,8 +20,9 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
+
 header .logo{
     margin-top: 5px;
     color: var(--corLogo);
@@ -52,10 +53,12 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 10px;
 }
 .livro-principal .descricao{
     margin-top: 5px;
     margin-bottom: 15px;
+
 
 }
 .livro-principal .titulo{
