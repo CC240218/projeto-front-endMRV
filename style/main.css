@@ -1,6 +1,6 @@
 :root{
     --fontLogo: Verdana, Geneva, Tahoma, sans-serif;
-    --corLogo: #b80ece;
+    --corLogo: #860197;
     
 }
 *{
@@ -28,14 +28,20 @@ header .logo{
     color: var(--corLogo);
     font-family: var(--fontLogo);
     font-size: 30px;
-    text-shadow: 2px -2px 2px rgb(230, 221, 233);
+    text-shadow: 2px -2px 3px rgb(230, 221, 233);
+}
+header .logo:hover{
+    text-shadow: 2px -2px 10px rgba(230, 221, 233, 0.979);
+    transition: .3s ease all;
 }
 header nav a{
     margin-right: 10px;
    color: var(--corLogo);
     text-decoration: none;
     font-family: fantasy;
-    text-shadow: 1px -1px 2px rgba(0, 0, 0, 0.808);
+    text-shadow: 2px -1px 3px rgba(248, 247, 247, 0.788);
+    font-size: 20px;
+    transition: .5s ease all;
     
 }
 header nav a:hover{
@@ -63,7 +69,12 @@ header nav a:hover{
 }
 .livro-principal .titulo{
     margin-top: 15%;
-    font-size: 45px;
+    font-size: 49px;
+    text-shadow: 2px -2px 2px rgba(8, 8, 8, 0.541);
+}
+.livro-principal .titulo:hover{
+    text-shadow: 12px -20px 2px rgba(8, 8, 8, 0.651);
+    transition: .2s ease all;
 }
 .botao{
     color: rgba(231, 229, 231, 0.6);
@@ -79,22 +90,24 @@ header nav a:hover{
     transition: .2s ease all;
     font-size: 12px;
     color: rgba(231, 229, 231, 0.6);
-    
     background-color: rgba(245, 81, 81, 0.6);
+    text-shadow: 1px -1px 3px rgba(10, 5, 9, 0.849);
+    transition: .2s ease all;
 }
 .box-book{
     height: 300px;
     width: 100%;
     display: block;
     cursor: pointer;
-    border-radius: 10%;
+    border-radius: 30px;
     
 }
 .box-book:hover{
-    display: block;
-    cursor: pointer;
     transition: .2s ease all;
-    
+    bottom: 20%;
+    height: 303px;
+    width: 10%;  
+    border-radius: 0px;
 }
 .categoria{
     margin-bottom: 10px;
@@ -106,5 +119,14 @@ header nav a:hover{
     color: rgba(233, 233, 233, 0.904);
     text-shadow: 2px -2px 1px var(--corLogo);
     background-color: rgba(0, 0, 0, 0.678);
+    transition: .2s ease all;
     
+}
+.categoria:hover{
+    border-radius: 55px;
+    font-size: 25px;
+    color: rgba(240, 0, 188, 0.904);
+    text-shadow: 2px -2px 3px rgb(238, 238, 238);
+    background-color: rgba(0, 0, 0, 0.678);
+    transition: .2s ease all;
 }
